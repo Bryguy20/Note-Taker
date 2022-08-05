@@ -13,15 +13,16 @@
   * [Questions](#questions)
   
   ## Description
-  This application was created to help take notes and save them on the side but also you canYou can delete it from the web server. This is very efficient for a note-taker application and can also be saved while you browse the web etc. You wouldn't have to worry about anything this all can be saved into a JSON data without any problem.
+  This application was created to help take notes and save them on the side but also you can You can delete it from the web server. This is very efficient for a note-taker application and can also be saved while you browse the web etc. You wouldn't have to worry about anything this all can be saved into a JSON data without any problem.
 
   ## [Installation](#table-of-contents)
    download the codes from the code tab.
-
+   
   ## [Usage](#table-of-contents)
   The applaction will be depolyed with heroku 
   here's the link:
-   https://git.heroku.com/note-taker-cha.git
+  https://note-taker-cha.herokuapp.com/
+  ![APP](the-deploy-app.png)
  
   ## Contributing
 

@@ -46,6 +46,12 @@ class Save {
            .then(() => newNote);
      }
 
+      // To Delte function -BONUS
+      deleteNote(id) {
+          return this.retrieveNotes()
+          .then(notes => notes.filter(note => note.id !== id))
+          .then(filteredNotes => this.write(filteredNotes));
+      }
 }
 
 module.exports = new Save();

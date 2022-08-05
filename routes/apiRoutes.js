@@ -20,6 +20,14 @@ router.post('/notes', (req, res) => {
     .catch(err => res.status(500).json(err));
 });
 
+// The Bonus - DELTE request 
+router.delete('/notes/:id', function (req,res) {
+    saveData
+        .deleteNote(req.params.id)
+        .then(() => res.json({ok:true}))
+        .catch(err => res.status(500).json(err));
+});
+
 
 //export to the router
 module.exports = router;
